@@ -1,0 +1,24 @@
+---
+permalink: /sitemap.xml
+sitemap: false
+serviceworker: false
+---
+
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  {% assign pages = site.pages | where_exp: 'page', 'page.sitemap != false' | sort: 'url' %}{% for page in pages %}
+  <url>
+    <loc>{{ page.url | absolute_url }}</loc>
+    <lastmod>{{ page.updated | default: page.date | date_to_xmlschema }}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  {% endfor %}{% assign posts = site.posts | where_exp: 'post', 'post.sitemap != false' | sort: 'url' %}{% for post in posts %}
+  <url>
+    <loc>{{ post.url | absolute_url }}</loc>
+    <lastmod>{{ post.updated | default: post.date | date_to_xmlschema }}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  {% endfor %}
+</urlset>
