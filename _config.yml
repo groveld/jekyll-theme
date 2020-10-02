@@ -4,9 +4,18 @@ timezone              : 'Etc/UTC'
 source                : 'jekyll'
 destination           : 'html'
 url                   : 'https://www.groveld.com'
-enforce_ssl           : 'www.groveld.com'
 permalink             : '/articles/:title'
 include               : ['_pages']
+exclude:
+  - .gitattributes
+  - .gitignore
+  - .jekyll-cache
+  - Gemfile
+  - Gemfile.lock
+  - Rakefile
+  - README.md
+  - LICENSE
+  - CNAME
 plugins               : []
 
 sass:
