@@ -1,8 +1,6 @@
 # Core Jekyll Configuration
 locale                : 'en'
 timezone              : 'Etc/UTC'
-source                : 'jekyll'
-destination           : 'html'
 url                   : 'https://www.groveld.com'
 permalink             : '/articles/:title'
 include               : ['_pages']
