@@ -5,6 +5,6 @@ serviceworker: false
 ---
 
 User-agent: *
-Disallow: {{ "/img/" | relative_url }}
-Allow: {{ "/img/logo.svg" | relative_url }}
+Disallow: {{ "/assets/img/" | relative_url }}
+Allow: {{ "/assets/img/logo.svg" | relative_url }}
 Sitemap: {{ "/sitemap.xml" | absolute_url }}

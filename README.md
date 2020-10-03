@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="Logo" src="jekyll/img/logo.svg" width="100px"/>
+  <img alt="Logo" src="assets/img/logo.svg" width="100px"/>
 </p>
 
 <h1 align="center">

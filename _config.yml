@@ -1,9 +1,10 @@
 # Core Jekyll Configuration
-locale                : 'en'
-timezone              : 'Etc/UTC'
-url                   : 'https://www.groveld.com'
-permalink             : '/articles/:title'
-include               : ['_pages']
+locale: 'en'
+timezone: 'Etc/UTC'
+url: 'https://www.groveld.com'
+permalink: '/articles/:title'
+include:
+  - _pages
 exclude:
   - .gitattributes
   - .gitignore
@@ -14,7 +15,6 @@ exclude:
   - README.md
   - LICENSE
   - CNAME
-plugins               : []
 
 sass:
   style: compressed

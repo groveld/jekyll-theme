@@ -1,6 +1,6 @@
 # Project specific #
 ####################
-html
+_site
 Gemfile.lock
 .jekyll-cache
 .sass-cache

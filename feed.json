@@ -10,7 +10,7 @@ serviceworker: false
   "home_page_url": "{{ "/" | absolute_url }}",
   "feed_url": "{{ "/feed.json" | absolute_url }}",
   "description": "{{ site.description | xml_escape }}",
-  "icon": "{{ '/img/icons/android-chrome-512x512.png' | absolute_url }}",
+  "icon": "{{ '/assets/img/icons/android-chrome-512x512.png' | absolute_url }}",
   "favicon": "{{ "/favicon.ico" | absolute_url }}",
   "author": {
     "name": "{{ site.author | xml_escape }}",
