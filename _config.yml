@@ -1,7 +1,7 @@
 # Core Jekyll Configuration
 locale: 'en'
 timezone: 'Etc/UTC'
-url: 'https://www.example.com'
+# url: 'https://www.example.com'
 permalink: '/articles/:title'
 include:
   - _pages
@@ -24,12 +24,6 @@ sass:
 compress_html:
   clippings: all
   comments: ["<!-- ", " -->"]
-  endings: []
-  ignore:
-    envs: []
-  blanklines: false
-  profile: false
-  startings: []
 
 # Progressive Web App Settings
 pwa_title             : 'Groveld'
@@ -41,7 +35,7 @@ serviceworker         : true
 #disqus_name           : 'groveld'
 
 # Custom Jekyll Configuration
-title                 : 'Groveld's Jekyll Theme'
+title                 : 'Jekyll Theme'
 tagline               : 'Minimalist Jekyll Theme'
 description           : 'The Jekyll theme used for the personal website of Martin Groeneveld'
 author                : 'Groveld'
