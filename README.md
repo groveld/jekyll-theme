@@ -3,7 +3,7 @@
 </p>
 
 <h1 align="center">
-  Bellah
+  Groveld's Jekyll Theme
 </h1>
 
 <h4 align="center">
