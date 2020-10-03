@@ -1,7 +1,8 @@
 # Core Jekyll Configuration
 locale: 'en'
 timezone: 'Etc/UTC'
-url: 'https://www.example.com'
+# url: 'https://www.groveld.com'
+# baseurl: '/blog'
 permalink: '/articles/:title'
 include:
   - _pages
