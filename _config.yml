@@ -1,11 +1,13 @@
 # Core Jekyll Configuration
 locale: 'en'
 timezone: 'Etc/UTC'
-url: 'https://www.groveld.com'
+url: 'https://www.example.com'
 permalink: '/articles/:title'
 include:
   - _pages
 exclude:
+  - .git*
+  - _site
   - .gitattributes
   - .gitignore
   - .jekyll-cache
@@ -39,12 +41,12 @@ serviceworker         : true
 #disqus_name           : 'groveld'
 
 # Custom Jekyll Configuration
-title                 : 'Martin Groeneveld'
-tagline               : 'Hacker, Maker, Tinkerer, Learner'
-description           : 'The personal website of Martin Groeneveld'
-author                : 'Martin Groeneveld'
-email                 : 'martin@groveld.com'
+title                 : 'Groveld's Jekyll Theme'
+tagline               : 'Minimalist Jekyll Theme'
+description           : 'The Jekyll theme used for the personal website of Martin Groeneveld'
+author                : 'Groveld'
+email                 : 'groveld@pm.me'
 
 phone                 : '+31610106931'
-address               : 'De Kamp 8<br>8627SP Gauw<br>Netherlands'
+address               : 'Streetname 123<br>Zipcode City<br>Country'
 legal                 : '<a href="/terms">Terms</a> &bull; <a href="/privacy">Privacy</a>'
