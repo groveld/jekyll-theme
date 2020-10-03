@@ -1,30 +1,8 @@
-# Core Jekyll Configuration
 locale: 'en'
 timezone: 'Etc/UTC'
 # url: 'https://www.groveld.com'
 # baseurl: '/blog'
 permalink: '/articles/:title'
-include:
-  - _pages
-exclude:
-  - .git*
-  - _site
-  - .gitattributes
-  - .gitignore
-  - .jekyll-cache
-  - Gemfile
-  - Gemfile.lock
-  - Rakefile
-  - README.md
-  - LICENSE
-  - CNAME
-
-sass:
-  style: compressed
-
-compress_html:
-  clippings: all
-  comments: ["<!-- ", " -->"]
 
 # Progressive Web App Settings
 pwa_title             : 'Groveld'
@@ -45,3 +23,27 @@ email                 : 'groveld@pm.me'
 phone                 : '+31610106931'
 address               : 'Streetname 123<br>Zipcode City<br>Country'
 legal                 : '<a href="/terms">Terms</a> &bull; <a href="/privacy">Privacy</a>'
+
+# Core Jekyll Configuration
+sass:
+  style: compressed
+
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+
+include:
+  - _pages
+
+exclude:
+  - .git*
+  - _site
+  - .gitattributes
+  - .gitignore
+  - .jekyll-cache
+  - Gemfile
+  - Gemfile.lock
+  - Rakefile
+  - README.md
+  - LICENSE
+  - CNAME
