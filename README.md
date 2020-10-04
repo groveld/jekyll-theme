@@ -15,6 +15,12 @@
   <img alt="Discord" src="https://img.shields.io/discord/412919788168413194?label=discord&style=flat-square">
 </p>
 
+## GitHub Pages
+
+To start your project, fork this repository. After forking the repo, your site will be live immediately on your personal Github Pages account, e.g. https://yourusername.github.io/your-repo-name/.
+
+Make sure GitHub Pages is enabled for your repo. It might take some time for the site to propagate entirely.
+
 ## Getting Started
 
 ```shell
