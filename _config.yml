@@ -1,7 +1,7 @@
 locale: 'en'
 timezone: 'Etc/UTC'
-# url: 'https://www.groveld.com'
-# baseurl: '/blog'
+url: '' # the base hostname & protocol for your site, e.g. https://example.com
+baseurl: '' # the subpath of your site, e.g. /blog
 permalink: '/articles/:title'
 
 # Progressive Web App Settings
@@ -25,12 +25,12 @@ address               : 'Streetname 123<br>Zipcode City<br>Country'
 legal                 : '<a href="/terms">Terms</a> &bull; <a href="/privacy">Privacy</a>'
 
 # Core Jekyll Configuration
-sass:
-  style: compressed
-
 compress_html:
   clippings: all
   comments: ["<!-- ", " -->"]
+
+sass:
+  style: compressed
 
 include:
   - _pages

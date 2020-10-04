@@ -1,9 +1,10 @@
 # Project specific #
 ####################
 _site
-Gemfile.lock
-.jekyll-cache
 .sass-cache
+.jekyll-cache
+.jekyll-metadata
+Gemfile.lock
 
 # OS generated files #
 ######################
