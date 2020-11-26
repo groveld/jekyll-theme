@@ -5,7 +5,7 @@ timezone: 'Etc/UTC'
 permalink: '/articles/:title'
 
 # Progressive Web App Settings
-pwa_title             : 'Groveld'
+pwa_title             : 'JekyllTheme'
 pwa_themecolor        : '#1e88e5'
 pwa_backgroundcolor   : '#1e88e5'
 
@@ -17,10 +17,10 @@ pwa_backgroundcolor   : '#1e88e5'
 title                 : 'Jekyll Theme'
 tagline               : 'Minimalist Jekyll Theme'
 description           : 'The Jekyll theme used for the personal website of Martin Groeneveld'
-author                : 'Groveld'
+author                : 'Martin Groeneveld'
 email                 : 'groveld@pm.me'
 
-phone                 : '+31610106931'
+phone                 : '+31612345678'
 address               : 'Streetname 123<br>Zipcode City<br>Country'
 legal                 : '<a href="/terms">Terms</a> &bull; <a href="/privacy">Privacy</a>'
 
