@@ -224,11 +224,11 @@ footer {
     /* border-radius: .25rem; */
   }
 
-  .nav-item:active, .nav-item.active {
-    /* background-color: #f50057; */
-  }
+  /* .nav-item:active, .nav-item.active {
+    background-color: #f50057;
+  } */
 
-  .nav-item:hover {
-    /* background-color: #f50057; */
-  }
+  /* .nav-item:hover {
+    background-color: #f50057;
+  } */
 }

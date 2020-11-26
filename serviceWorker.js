@@ -1,10 +1,8 @@
 ---
-permalink: /sw.js
+permalink: /serviceWorker.js
 sitemap: false
 serviceworker: false
 ---
-
-'use strict';
 
 const cacheVersion = '{{ site.time | date: "%s" }}::';
 {% assign exclude = site.pages | concat: site.posts | where_exp: 'entry', 'entry.serviceworker == false' | sort: 'url' %}

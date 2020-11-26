@@ -5,13 +5,12 @@ serviceworker: true
 ---
 
 {% if site.serviceworker and jekyll.environment == 'production' %}
-// Register Service Worker
-if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('/sw.js').then(function(registration) {
-    // ServiceWorker registration successful
-  }).catch(function(err) {
-    // ServiceWorker registration failed
-    console.log('ServiceWorker registration failed:', err);
-  });
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", function() {
+    navigator.serviceWorker
+      .register("/serviceWorker.js")
+      .then(res => console.log("service worker registered"))
+      .catch(err => console.log("service worker not registered", err))
+  })
 }
 {% endif %}
