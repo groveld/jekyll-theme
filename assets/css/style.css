@@ -4,6 +4,8 @@ sitemap: false
 serviceworker: true
 ---
 
+@charset "UTF-8";
+
 :root {
   --background-color-normal: #ffffff;
   --text-color-normal: #243b53;
