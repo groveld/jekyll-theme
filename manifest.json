@@ -54,5 +54,24 @@ serviceworker: false
       "type": "image/png", "sizes": "512x512",
       "purpose": "any maskable"
     }
+  ],
+  "shortcuts" : [
+    {
+      "name": "About",
+      "url": "{{ "/about" | relative_url }}"
+    }
+  ],
+  "categories": [ "education", "productivity", "security", "utilities" ],
+  "screenshots" : [
+    {
+      "src": "{{ '/assets/img/screenshots/screenshot1.webp' | relative_url }}",
+      "sizes": "1280x720",
+      "type": "image/webp"
+    },
+    {
+      "src": "{{ '/assets/img/screenshots/screenshot2.webp' | relative_url }}",
+      "sizes": "1280x720",
+      "type": "image/webp"
+    }
   ]
 }
