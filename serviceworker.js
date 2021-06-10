@@ -1,5 +1,5 @@
 ---
-permalink: /serviceWorker.js
+permalink: /serviceworker.js
 sitemap: false
 serviceworker: false
 ---
