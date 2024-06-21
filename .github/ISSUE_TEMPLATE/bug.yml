@@ -1,6 +1,10 @@
 ---
 name: 🐛 Bug Report
 description: Report any issues you encounter to make hugoplate even more efficient.
+title: "[Bug]: "
+labels: ["bug", "triage"]
+assignees:
+  - groveld
 
 body:
   - type: input
