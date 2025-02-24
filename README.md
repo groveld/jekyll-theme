@@ -6,10 +6,6 @@
   Groveld's Jekyll Theme
 </h1>
 
-<h4 align="center">
-  This is the jekyll theme used for the personal website of Martin Groeneveld.
-</h4>
-
 <p align="center">
   <img alt="License" src="https://img.shields.io/badge/license-MIT-lightgrey.svg?label=license&style=flat-square">
   <img alt="Discord" src="https://img.shields.io/discord/412919788168413194?label=discord&style=flat-square">
