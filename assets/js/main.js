@@ -44,7 +44,7 @@ const submitForm = async event => {
 
   // Send the form to the Cloudflare Workers API
   try {
-    const response = await fetch('/api/contact', {
+    const response = await fetch('/contact', {
       method: 'POST',
       body: formData,
     });
