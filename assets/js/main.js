@@ -73,4 +73,4 @@ if (window.location.pathname.endsWith('/contact')) {
   
   // Add an event listener to the textarea
   messageField.addEventListener('input', resizeMessageField);
-});
+};
