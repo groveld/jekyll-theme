@@ -4,6 +4,30 @@ sitemap: false
 serviceworker: false
 ---
 
+User-agent: Amazonbot
+Disallow: /
+
+User-agent: Applebot-Extended
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: meta-externalagent
+Disallow: /
+
 User-agent: *
 Disallow: {{ "/contact" | relative_url }}
 Disallow: {{ "/assets/" | relative_url }}
