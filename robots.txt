@@ -32,4 +32,5 @@ User-agent: *
 Disallow: {{ "/contact" | relative_url }}
 Disallow: {{ "/assets/" | relative_url }}
 Allow: {{ "/assets/img/logo.svg" | relative_url }}
+
 Sitemap: {{ "/sitemap.xml" | absolute_url }}
